@@ -66,6 +66,7 @@ if(Linux MATCHES ${BASE_BUILD_PLATFORM})
     set(BASE_LINK_PLATFORM_LIBRARIES    
         glib-2.0
         pthread
+        dl
     )
 
     set(BASE_INCLUDE_PLATFORM_DIRECTORIES   
