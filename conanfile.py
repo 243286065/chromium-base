@@ -45,6 +45,7 @@ class ChromiumbaseConan(ConanFile):
     def requirements(self):
         if self.settings.os == "Linux":
             self.requires("glib/2.56.1@bincrafters/stable")
+            self.requires("libevent/2.1.10@bincrafters/stable")
 
     def build(self):
         if self.settings.os == "Linux":
