@@ -117,6 +117,7 @@ if(Linux MATCHES ${BASE_BUILD_PLATFORM})
         base/files/dir_reader_linux.h
         base/files/file_path_watcher_linux.cc
         base/third_party/nspr/prcpucfg_linux.h
+        base/message_pump_libevent.cc
         base/message_pump_libevent.h
     )
 endif()
