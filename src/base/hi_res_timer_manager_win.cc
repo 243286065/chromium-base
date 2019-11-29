@@ -4,7 +4,7 @@
 
 #include "base/hi_res_timer_manager.h"
 
-#include "base/base_time.h"
+#include "base/time/time.h"
 
 HighResolutionTimerManager::HighResolutionTimerManager()
     : hi_res_clock_available_(false) {

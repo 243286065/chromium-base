@@ -6,7 +6,7 @@
 #define BASE_MESSAGE_PUMP_DEFAULT_H_
 
 #include "base/message_pump.h"
-#include "base/base_time.h"
+#include "base/time/time.h"
 #include "base/synchronization/waitable_event.h"
 
 namespace base {

@@ -6,7 +6,7 @@
 #define BASE_BUILD_TIME_
 
 #include "base/base_export.h"
-#include "base/base_time.h"
+#include "base/time/time.h"
 
 namespace base {
 

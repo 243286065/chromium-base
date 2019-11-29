@@ -343,7 +343,7 @@
     <ClInclude Include="..\base\threading\watchdog.h" />
     <ClInclude Include="..\base\threading\worker_pool.h" />
     <ClInclude Include="..\base\thread_task_runner_handle.h" />
-    <ClInclude Include="..\base\base_time.h" />
+    <ClInclude Include="..\base\time\time.h" />
     <ClInclude Include="..\base\timer.h" />
     <ClInclude Include="..\base\utf_offset_string_conversions.h" />
     <ClInclude Include="..\base\utf_string_conversions.h" />
@@ -491,9 +491,9 @@
     <ClCompile Include="..\base\threading\worker_pool.cc" />
     <ClCompile Include="..\base\threading\worker_pool_win.cc" />
     <ClCompile Include="..\base\thread_task_runner_handle.cc" />
-    <ClCompile Include="..\base\base_time.cc" />
+    <ClCompile Include="..\base\time\time.cc" />
     <ClCompile Include="..\base\timer.cc" />
-    <ClCompile Include="..\base\base_time_win.cc" />
+    <ClCompile Include="..\base\time\time_win.cc" />
     <ClCompile Include="..\base\utf_offset_string_conversions.cc" />
     <ClCompile Include="..\base\utf_string_conversions.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>

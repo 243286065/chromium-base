@@ -266,8 +266,8 @@
     <ClCompile Include="..\base\threading\worker_pool_win.cc">
       <Filter>threading</Filter>
     </ClCompile>
-    <ClCompile Include="..\base\base_time.cc" />
-    <ClCompile Include="..\base\base_time_win.cc" />
+    <ClCompile Include="..\base\time\time.cc" />
+    <ClCompile Include="..\base\time\time_win.cc" />
     <ClCompile Include="..\base\third_party\modp_b64\modp_b64.cc">
       <Filter>third_party\modp_b64</Filter>
     </ClCompile>
