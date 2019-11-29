@@ -1,6 +1,6 @@
 // From http://www.azillionmonkeys.com/qed/hash.html
 
-#include "base/hash.h"
+#include "base/hash/hash.h"
 
 typedef uint32 uint32_t;
 typedef uint16 uint16_t;

@@ -234,7 +234,7 @@
     <ClInclude Include="..\base\float_util.h" />
     <ClInclude Include="..\base\format_macros.h" />
     <ClInclude Include="..\base\guid.h" />
-    <ClInclude Include="..\base\hash.h" />
+    <ClInclude Include="..\base\hash\hash.h" />
     <ClInclude Include="..\base\hash_tables.h" />
     <ClInclude Include="..\base\hi_res_timer_manager.h" />
     <ClInclude Include="..\base\id_map.h" />
@@ -249,7 +249,7 @@
     <ClInclude Include="..\base\linked_list.h" />
     <ClInclude Include="..\base\location.h" />
     <ClInclude Include="..\base\logging.h" />
-    <ClInclude Include="..\base\md5.h" />
+    <ClInclude Include="..\base\hash\md5.h" />
     <ClInclude Include="..\base\memory\aligned_memory.h" />
     <ClInclude Include="..\base\memory\linked_ptr.h" />
     <ClInclude Include="..\base\memory\mru_cache.h" />
@@ -404,7 +404,7 @@
     <ClCompile Include="..\base\file_version_info_win.cc" />
     <ClCompile Include="..\base\guid.cc" />
     <ClCompile Include="..\base\guid_win.cc" />
-    <ClCompile Include="..\base\hash.cc" />
+    <ClCompile Include="..\base\hash\hash.cc" />
     <ClCompile Include="..\base\hi_res_timer_manager_win.cc" />
     <ClCompile Include="..\base\json\json_file_value_serializer.cc" />
     <ClCompile Include="..\base\json\json_parser.cc" />
@@ -415,7 +415,7 @@
     <ClCompile Include="..\base\lazy_instance.cc" />
     <ClCompile Include="..\base\location.cc" />
     <ClCompile Include="..\base\logging.cc" />
-    <ClCompile Include="..\base\md5.cc">
+    <ClCompile Include="..\base\hash\md5.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\base\memory\aligned_memory.cc" />

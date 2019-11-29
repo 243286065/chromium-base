@@ -21,7 +21,7 @@
  * will fill a supplied 16-byte array with the digest.
  */
 
-#include "base/md5.h"
+#include "base/hash/md5.h"
 #include "base/basictypes.h"
 
 #include <string.h>

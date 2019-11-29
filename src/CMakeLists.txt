@@ -196,8 +196,8 @@ set(BASE_SOURCE
     base/guid.cc
     base/guid.h
     base/hash_tables.h
-    base/hash.cc
-    base/hash.h
+    base/hash/hash.cc
+    base/hash/hash.h
     base/hi_res_timer_manager.h
     base/id_map.h
     base/json/json_file_value_serializer.cc
@@ -220,8 +220,8 @@ set(BASE_SOURCE
     base/location.h
     base/logging.cc
     base/logging.h
-    base/md5.cc
-    base/md5.h
+    base/hash/md5.cc
+    base/hash/md5.h
     base/memory/aligned_memory.cc
     base/memory/aligned_memory.h
     base/memory/linked_ptr.h
