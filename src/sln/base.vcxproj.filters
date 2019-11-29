@@ -284,7 +284,7 @@
       <Filter>third_party\icu</Filter>
     </ClCompile>
     <ClCompile Include="..\base\file_descriptor_shuffle.cc" />
-    <ClCompile Include="..\base\sha1_portable.cc" />
+    <ClCompile Include="..\base\hash\sha1_portable.cc" />
     <ClCompile Include="..\base\win\dllmain.cc">
       <Filter>win</Filter>
     </ClCompile>
@@ -624,7 +624,7 @@
       <Filter>third_party\icu</Filter>
     </ClInclude>
     <ClInclude Include="..\base\file_descriptor_shuffle.h" />
-    <ClInclude Include="..\base\sha1.h" />
+    <ClInclude Include="..\base\hash\sha1.h" />
     <ClInclude Include="..\base\dispatchers.h" />
     <ClInclude Include="..\base\hash_tables.h" />
   </ItemGroup>

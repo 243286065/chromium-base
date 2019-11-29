@@ -280,8 +280,8 @@ set(BASE_SOURCE
     base/sequenced_task_runner_helpers.h
     base/sequenced_task_runner.cc
     base/sequenced_task_runner.h
-    base/sha1_portable.cc
-    base/sha1.h
+    base/hash/sha1_portable.cc
+    base/hash/sha1.h
     base/shared_memory.h
     base/single_thread_task_runner.h
     base/stack_container.h

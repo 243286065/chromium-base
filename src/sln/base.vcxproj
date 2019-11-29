@@ -289,7 +289,7 @@
     <ClInclude Include="..\base\scoped_temp_dir.h" />
     <ClInclude Include="..\base\sequenced_task_runner.h" />
     <ClInclude Include="..\base\sequenced_task_runner_helpers.h" />
-    <ClInclude Include="..\base\sha1.h" />
+    <ClInclude Include="..\base\hash\sha1.h" />
     <ClInclude Include="..\base\shared_memory.h" />
     <ClInclude Include="..\base\single_thread_task_runner.h" />
     <ClInclude Include="..\base\stack_container.h" />
@@ -447,7 +447,7 @@
     <ClCompile Include="..\base\scoped_native_library.cc" />
     <ClCompile Include="..\base\scoped_temp_dir.cc" />
     <ClCompile Include="..\base\sequenced_task_runner.cc" />
-    <ClCompile Include="..\base\sha1_portable.cc" />
+    <ClCompile Include="..\base\hash\sha1_portable.cc" />
     <ClCompile Include="..\base\shared_memory_win.cc" />
     <ClCompile Include="..\base\string16.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
