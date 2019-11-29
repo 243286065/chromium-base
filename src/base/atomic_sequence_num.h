@@ -33,7 +33,7 @@ class StaticAtomicSequenceNumber {
     seq_.store(0, std::memory_order_release);
   }
 
-  std::atomic<int> seq_ = 0;
+  std::atomic<int> seq_{0};
 };
 
 // AtomicSequenceNumber that can be stored and used safely (i.e. its fields are

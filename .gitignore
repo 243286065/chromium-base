@@ -50,3 +50,5 @@
 *.lib
 *.dll
 *.so
+
+.vscode

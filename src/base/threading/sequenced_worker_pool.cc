@@ -336,7 +336,7 @@ class SequencedWorkerPool::Inner {
   // The last sequence number used. Managed by GetSequenceToken, since this
   // only does threadsafe increment operations, you do not need to hold the
   // lock.
-  std::atomic<int> last_sequence_number_ = 0;
+  std::atomic<int> last_sequence_number_{0};
 
   // This lock protects |everything in this class|. Do not read or modify
   // anything without holding this lock. Do not block while holding this

@@ -54,7 +54,7 @@ class BASE_EXPORT RefCountedThreadSafeBase {
   bool Release() const;
 
  private:
-  std::atomic<int> ref_count_ = 0;
+  std::atomic<int> ref_count_{0};
 #ifndef NDEBUG
   mutable bool in_dtor_;
 #endif

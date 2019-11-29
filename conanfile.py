@@ -6,7 +6,7 @@ from conans import ConanFile, MSBuild, CMake, tools
 
 class ChromiumbaseConan(ConanFile):
     name = "chromium-base"
-    version = "1.0.1"
+    version = "1.0.2"
     license = ""
     author = "google"
     url = "https://github.com/shaoyuan1943/chromium-base"
@@ -46,6 +46,8 @@ class ChromiumbaseConan(ConanFile):
         if self.settings.os == "Linux":
             self.requires("glib/2.56.1@bincrafters/stable")
             self.requires("libevent/2.1.10@bincrafters/stable")
+            self.options["glib"].shared = False
+            self.options["libevent"].shared = False
 
     def build(self):
         if self.settings.os == "Linux":

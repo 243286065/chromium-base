@@ -31,7 +31,7 @@ class BASE_EXPORT CancellationFlag {
   bool IsSet() const;  // Returns true iff the flag was set.
 
  private:
-   std::atomic<int> flag_ = 0;
+   std::atomic<int> flag_{0};
 #if !defined(NDEBUG)
   PlatformThreadId set_on_;
 #endif

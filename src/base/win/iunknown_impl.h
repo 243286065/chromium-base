@@ -29,7 +29,7 @@ class BASE_EXPORT IUnknownImpl : public IUnknown {
   virtual ~IUnknownImpl();
 
  private:
-   std::atomic<int> ref_count_ = 0;
+   std::atomic<int> ref_count_{0};
 };
 
 }  // namespace win
