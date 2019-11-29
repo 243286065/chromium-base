@@ -139,7 +139,7 @@ template <typename Type>
 base::AlignedMemory<sizeof(Type), ALIGNOF(Type)> StaticMemorySingletonTraits<Type>::buffer_;
 
 template <typename Type>
-std::atomic<int32> StaticMemorySingletonTraits<Type>::dead_ = 0;
+std::atomic<int32> StaticMemorySingletonTraits<Type>::dead_{0};
 
 // The Singleton<Type, Traits, DifferentiatingType> class manages a single
 // instance of Type which will be created on first use and will be destroyed at
@@ -270,6 +270,6 @@ class Singleton {
 };
 
 template <typename Type, typename Traits, typename DifferentiatingType>
-std::atomic<intptr_t> Singleton<Type, Traits, DifferentiatingType>::instance_ = 0;
+std::atomic<intptr_t> Singleton<Type, Traits, DifferentiatingType>::instance_{0};
 
 #endif  // BASE_MEMORY_SINGLETON_H_
